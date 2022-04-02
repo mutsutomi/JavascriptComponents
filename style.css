@@ -1,0 +1,11 @@
+/* input[type="checkbox"]{
+  display: none;
+} */
+
+.dropdown{
+  display: none;
+}
+
+#btn:checked + .dropdown{
+  display: block;
+}
